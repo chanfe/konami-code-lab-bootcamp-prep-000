@@ -14,17 +14,18 @@ const codes = [
 function init() {
   // your code here
   let index = 0;
-  const key = document.keydown;
-  console.log(key);
-  if(key === codes[index]) {
-    index++;
-    console.log(index);
-    if(index === codes.length){
-      alert("Congrat!!")
-    
+  
+    const key = e.key;
+    console.log(key);
+    if(key === codes[index]) {
+      index++;
+      console.log(index);
+      if(index === codes.length){
+        alert("Congrat!!")
+      
+        index = 0;
+      }
+    } else {
       index = 0;
     }
-  } else {
-    index = 0;
-  }
 }
