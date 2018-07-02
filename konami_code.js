@@ -14,7 +14,7 @@ const codes = [
 function init() {
   // your code here
   let index = 0;
-  document.body.addEventListener("keydown", function)
+  document.body.addEventListener("keydown", function(event))
     const key = e.key;
     console.log(key);
     if(key === codes[index]) {
