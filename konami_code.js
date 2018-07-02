@@ -14,7 +14,7 @@ const codes = [
 function init() {
   // your code here
   let index = 0;
-  document.addEventListener("click", onKeyDownHandler(e));
+  document.addEventListener("click", onKeyDownHandler(document.keyDown));
 }
 
 function onKeyDownHandler(e){
