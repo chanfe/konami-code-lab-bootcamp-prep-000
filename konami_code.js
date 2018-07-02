@@ -16,6 +16,13 @@ function init() {
   let index = 0;
   
 }
+
+const main = document.getElementById('main')
+ 
+main.addEventListener('click', function(event) {
+  alert('I was clicked!')
+})
+
 function onKeyDownHandler(e){
     const key = e.key;
     console.log(key);
