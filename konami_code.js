@@ -14,7 +14,7 @@ const codes = [
 function init() {
   // your code here
   let index = 0;
-  document.body.
+  document.body.addEventListener
     const key = e.key;
     console.log(key);
     if(key === codes[index]) {
