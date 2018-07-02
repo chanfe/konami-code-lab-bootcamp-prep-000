@@ -15,6 +15,7 @@ function init() {
   // your code here
   let index = 0;
   
+  
 }
 function onKeyDownHandler(e){
     const key = e.key;
