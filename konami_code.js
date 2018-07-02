@@ -14,7 +14,6 @@ const codes = [
 function init() {
   // your code here
   let index = 0;
-  console.log("hay!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
   const key = keyCode;
   console.log(key);
   if(key === codes[index]) {
