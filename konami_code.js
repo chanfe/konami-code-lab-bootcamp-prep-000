@@ -14,8 +14,6 @@ const codes = [
 function init() {
   // your code here
   let index = 0;
-  var event = new Event('build');
-  event.
   
 }
 function onKeyDownHandler(e){
