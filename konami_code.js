@@ -24,6 +24,7 @@ function init() {
         alert("Congrat!!")
       
         index = 0;
+        return true;
       }
     } else {
       index = 0;
