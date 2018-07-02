@@ -15,20 +15,17 @@ function init() {
   // your code here
   let index = 0;
   console.log("hay!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
-  function onKeyDownHandler(e) {
-    const key = e.keyCode;
-    console.log(key);
-    if(key === codes[index]) {
-      index++;
-      console.log(index);
-      if(index === codes.length){
-        alert("Congrat!!")
-      
-        index = 0;
-      }
-    } else {
+  const key = e.keyCode;
+  console.log(key);
+  if(key === codes[index]) {
+    index++;
+    console.log(index);
+    if(index === codes.length){
+      alert("Congrat!!")
+    
       index = 0;
     }
+  } else {
+    index = 0;
   }
-  onKeyDownHandler();
 }
